@@ -216,6 +216,8 @@ public class Armors
         ArmorInfo = amorinfo;
 
     }
+    
+    
     이걸 가지고 튜터님께 질문하러 갔었는데 
     1. 아이템 정보를 클래스 / 구조체로 활용해 보기
     2. 아이템 정보를 배열로 관리하기
