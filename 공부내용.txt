@@ -1,0 +1,18 @@
+2023-11-10
+
+    foreach (Item item in itemList)
+{
+    Console.WriteLine($"Name: {item.Name}, Description: {item.Description}");
+
+    if (item is Armors)
+    {
+        Armors armor = (Armors)item;
+        Console.WriteLine($"- {armor.Name}    | 방어력:+{armor.DefensePower} | {armor.Description}");
+    }
+    else if (item is Weapons)
+    {
+        Weapons weapon = (Weapons)item;
+        Console.WriteLine($"- {weapon.Name}    | 공격력:+{weapon.OffensePower} | {weapon.Description}");
+    }
+  
+}
